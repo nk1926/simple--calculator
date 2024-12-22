@@ -1,0 +1,28 @@
+def calculator():
+    while True:
+        # Input numbers
+        a = int(input("Enter a: "))
+        b = int(input("Enter b: "))
+        
+        # Input operation
+        c = input("Enter an operator (+, -, *,/): ")
+        
+        # Perform the operation
+        if c == '+':
+            print(f"Sum is: {a + b}")
+        elif c == '-':
+            print(f"Difference is: {a - b}")
+        elif c == '*':
+            print(f"Product is: {a * b}")
+        elif c == '/':
+                print(f"division is :{a/b}")
+        else:
+            print("Invalid operation!")
+        
+        # Ask user to continue or not
+        x = input("Enter 'yes', 'y' to continue or 'no', 'n' to exit: ").lower()
+        if x not in ('yes', 'y','ye'):
+            break
+
+# Run the calculator
+calculator()
