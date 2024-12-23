@@ -5,7 +5,7 @@ def calculator():
         b = int(input("Enter b: "))
         
         # Input operation
-        c = input("Enter an operator (+, -, *,/): ")
+        c = input("Enter an operator to perform the function(+, -, *,/): ")
         
         # Perform the operation
         if c == '+':
@@ -15,7 +15,7 @@ def calculator():
         elif c == '*':
             print(f"Product is: {a * b}")
         elif c == '/':
-                print(f"division is :{a/b}")
+                print(f"n is :{a/b}")
         else:
             print("Invalid operation!")
         
