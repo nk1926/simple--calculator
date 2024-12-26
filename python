@@ -1,3 +1,4 @@
+
 def calculator():
     while True:
         # Input numbers
